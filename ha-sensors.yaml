@@ -94,6 +94,29 @@ mqtt:
           - "solar_inverter"
         model: "iSloar-SML-III"
         manufacturer: "EASun"
+    - name: "PV2 Input Current"
+      state_topic: "homeassistant/sensor/inverter_pv2_input_watt"
+      unique_id: "inverter_pv2_input_watt"
+      device_class: "power"
+      unit_of_measurement: "W"
+      device:
+        name: "Inverter"
+        identifiers:
+          - "solar_inverter"
+        model: "iSloar-SML-III"
+        manufacturer: "EASun"
+
+    - name: "PV2 Input Voltage"
+      state_topic: "homeassistant/sensor/inverter_pv2_input_voltage"
+      unique_id: "inverter_pv2_input_voltage"
+      device_class: "voltage"
+      unit_of_measurement: "V"
+      device:
+        name: "Inverter"
+        identifiers:
+          - "solar_inverter"
+        model: "iSloar-SML-III"
+        manufacturer: "EASun"
 
     - name: "Warnings"
       state_topic: "homeassistant/sensor/inverter_warnings"
@@ -103,4 +126,4 @@ mqtt:
         identifiers:
           - "solar_inverter"
         model: "iSloar-SML-III"
-        manufacturer: "EASun"
+        manufacturer: "EASun"``

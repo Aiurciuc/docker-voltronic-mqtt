@@ -14,6 +14,7 @@ def loop():
     while True:
         inverter.update("QMOD")
         inverter.update("QPIGS")
+        inverter.update("QPIGS2")
         inverter.update("QPIWS")
 
         client.publish(inverter.sensors)
