@@ -16,6 +16,8 @@ def loop():
         inverter.update("QPIGS")
         inverter.update("QPIGS2")
         inverter.update("QPIWS")
+        inverter.update("QPIRI")
+
 
         client.publish(inverter.sensors)
         time.sleep(REPORT_INTERVAL_S)

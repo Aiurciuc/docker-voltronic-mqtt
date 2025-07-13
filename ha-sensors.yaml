@@ -126,4 +126,88 @@ mqtt:
         identifiers:
           - "solar_inverter"
         model: "iSloar-SML-III"
-        manufacturer: "EASun"``
+        manufacturer: "EASun"
+    
+    - name: "Grid Rating Voltage"
+      state_topic: "homeassistant/sensor/grid_rating_voltage"
+      unique_id: "inverter_grid_rating_voltage"
+      device_class: "voltage"
+      unit_of_measurement: "V"
+      device:
+        name: "Inverter"
+        identifiers:
+          - "solar_inverter"
+        model: "iSloar-SML-III"
+        manufacturer: "EASun"
+
+    - name: "Grid Rating Current"
+      state_topic: "homeassistant/sensor/grid_rating_current"
+      unique_id: "inverter_grid_rating_current"
+      device_class: "current"
+      unit_of_measurement: "A"
+      device:
+        name: "Inverter"
+        identifiers:
+          - "solar_inverter"
+        model: "iSloar-SML-III"
+        manufacturer: "EASun"
+
+    - name: "AC Output Rating Voltage"
+      state_topic: "homeassistant/sensor/ac_output_rating_voltage"
+      unique_id: "inverter_ac_output_rating_voltage"
+      device_class: "voltage"
+      unit_of_measurement: "V"
+      device:
+        name: "Inverter"
+        identifiers:
+          - "solar_inverter"
+        model: "iSloar-SML-III"
+        manufacturer: "EASun"
+
+    - name: "AC Output Rating Frequency"
+      state_topic: "homeassistant/sensor/ac_output_rating_frequency"
+      unique_id: "inverter_ac_output_rating_frequency"
+      device_class: "frequency"
+      unit_of_measurement: "Hz"
+      device:
+        name: "Inverter"
+        identifiers:
+          - "solar_inverter"
+        model: "iSloar-SML-III"
+        manufacturer: "EASun"
+
+    - name: "AC Output Rating Current"
+      state_topic: "homeassistant/sensor/ac_output_rating_current"
+      unique_id: "inverter_ac_output_rating_current"
+      device_class: "current"
+      unit_of_measurement: "A"
+      device:
+        name: "Inverter"
+        identifiers:
+          - "solar_inverter"
+        model: "iSloar-SML-III"
+        manufacturer: "EASun"
+
+    - name: "AC Output Apparent Power"
+      state_topic: "homeassistant/sensor/ac_output_apparent_power"
+      unique_id: "inverter_ac_output_apparent_power"
+      device_class: "apparent_power"
+      unit_of_measurement: "VA"
+      device:
+        name: "Inverter"
+        identifiers:
+          - "solar_inverter"
+        model: "iSloar-SML-III"
+        manufacturer: "EASun"
+
+    - name: "AC Output Active Power"
+      state_topic: "homeassistant/sensor/ac_output_active_power"
+      unique_id: "inverter_ac_output_active_power"
+      device_class: "power"
+      unit_of_measurement: "W"
+      device:
+        name: "Inverter"
+        identifiers:
+          - "solar_inverter"
+        model: "iSloar-SML-III"
+        manufacturer: "EASun"
