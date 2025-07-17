@@ -22,8 +22,9 @@
         "pv1_charge_power": {"index": 19, "type": "int"}
     },
      "QPIGS2": {
+        "pv2_input_current": {"index": 0, "type": "float"},
         "pv2_input_voltage": {"index": 1, "type": "float"},
-        "pv2_input_watt": {"index": 2, "type": "int"}
+        "pv2_charging_power": {"index": 2, "type": "int"}
     },
     "QPIWS": {
         "warnings": {"index": 0, "type": "str"}

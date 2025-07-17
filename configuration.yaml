@@ -12,8 +12,8 @@ scene: !include scenes.yaml
 mqtt:
   sensor:
     - name: "Grid Voltage"
-      state_topic: "homeassistant/sensor/invertor_grid_voltage"
-      unique_id: "invertor_grid_voltage"
+      state_topic: "homeassistant/sensor/inverter_grid_voltage"
+      unique_id: "inverter_grid_voltage"
       device_class: "voltage"
       unit_of_measurement: "V"
       device:
@@ -24,8 +24,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "Grid Frequency"
-      state_topic: "homeassistant/sensor/invertor_grid_frequency"
-      unique_id: "invertor_grid_frequency"
+      state_topic: "homeassistant/sensor/inverter_grid_frequency"
+      unique_id: "inverter_grid_frequency"
       device_class: "frequency"
       unit_of_measurement: "Hz"
       device:
@@ -36,8 +36,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "AC Output Voltage"
-      state_topic: "homeassistant/sensor/invertor_ac_output_voltage"
-      unique_id: "invertor_ac_output_voltage"
+      state_topic: "homeassistant/sensor/inverter_ac_output_voltage"
+      unique_id: "inverter_ac_output_voltage"
       device_class: "voltage"
       unit_of_measurement: "V"
       device:
@@ -48,8 +48,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "AC Output Frequency"
-      state_topic: "homeassistant/sensor/invertor_ac_output_frequency"
-      unique_id: "invertor_ac_output_frequency"
+      state_topic: "homeassistant/sensor/inverter_ac_output_frequency"
+      unique_id: "inverter_ac_output_frequency"
       device_class: "frequency"
       unit_of_measurement: "Hz"
       device:
@@ -60,8 +60,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "AC Output Apparent Power"
-      state_topic: "homeassistant/sensor/invertor_ac_output_apparent_power"
-      unique_id: "invertor_ac_output_apparent_power"
+      state_topic: "homeassistant/sensor/inverter_ac_output_apparent_power"
+      unique_id: "inverter_ac_output_apparent_power"
       device_class: "apparent_power"
       unit_of_measurement: "VA"
       device:
@@ -72,8 +72,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "AC Output Active Power"
-      state_topic: "homeassistant/sensor/invertor_ac_output_active_power"
-      unique_id: "invertor_ac_output_active_power"
+      state_topic: "homeassistant/sensor/inverter_ac_output_active_power"
+      unique_id: "inverter_ac_output_active_power"
       device_class: "power"
       unit_of_measurement: "W"
       device:
@@ -84,8 +84,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "AC Output Load Percent"
-      state_topic: "homeassistant/sensor/invertor_ac_output_load_percent"
-      unique_id: "invertor_ac_output_load_percent"
+      state_topic: "homeassistant/sensor/inverter_ac_output_load_percent"
+      unique_id: "inverter_ac_output_load_percent"
       unit_of_measurement: "%"
       device:
         name: "Invertor - QPIGS"
@@ -95,8 +95,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "Bus Voltage"
-      state_topic: "homeassistant/sensor/invertor_bus_voltage"
-      unique_id: "invertor_bus_voltage"
+      state_topic: "homeassistant/sensor/inverter_bus_voltage"
+      unique_id: "inverter_bus_voltage"
       device_class: "voltage"
       unit_of_measurement: "V"
       device:
@@ -107,8 +107,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "Battery Voltage"
-      state_topic: "homeassistant/sensor/invertor_battery_voltage"
-      unique_id: "invertor_battery_voltage"
+      state_topic: "homeassistant/sensor/inverter_battery_voltage"
+      unique_id: "inverter_battery_voltage"
       device_class: "voltage"
       unit_of_measurement: "V"
       device:
@@ -119,8 +119,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "Battery Charge Current"
-      state_topic: "homeassistant/sensor/invertor_battery_charge_current"
-      unique_id: "invertor_battery_charge_current"
+      state_topic: "homeassistant/sensor/inverter_battery_charge_current"
+      unique_id: "inverter_battery_charge_current"
       device_class: "current"
       unit_of_measurement: "A"
       device:
@@ -131,8 +131,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "Battery Capacity"
-      state_topic: "homeassistant/sensor/invertor_battery_capacity"
-      unique_id: "invertor_battery_capacity"
+      state_topic: "homeassistant/sensor/inverter_battery_capacity"
+      unique_id: "inverter_battery_capacity"
       device_class: "battery"
       unit_of_measurement: "%"
       device:
@@ -143,8 +143,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "Inverter Temperature"
-      state_topic: "homeassistant/sensor/invertor_inverter_temperature"
-      unique_id: "invertor_inverter_temperature"
+      state_topic: "homeassistant/sensor/inverter_inverter_temperature"
+      unique_id: "inverter_inverter_temperature"
       device_class: "temperature"
       unit_of_measurement: "C"
       device:
@@ -155,8 +155,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "PV1 Input Current"
-      state_topic: "homeassistant/sensor/invertor_pv1_input_current"
-      unique_id: "invertor_pv1_input_current"
+      state_topic: "homeassistant/sensor/inverter_pv1_input_current"
+      unique_id: "inverter_pv1_input_current"
       device_class: "current"
       unit_of_measurement: "A"
       device:
@@ -167,8 +167,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "PV1 Input Voltage"
-      state_topic: "homeassistant/sensor/invertor_pv1_input_voltage"
-      unique_id: "invertor_pv1_input_voltage"
+      state_topic: "homeassistant/sensor/inverter_pv1_input_voltage"
+      unique_id: "inverter_pv1_input_voltage"
       device_class: "voltage"
       unit_of_measurement: "V"
       device:
@@ -179,8 +179,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "Battery Voltage from SCC"
-      state_topic: "homeassistant/sensor/invertor_battery_voltage_from_scc"
-      unique_id: "invertor_battery_voltage_from_scc"
+      state_topic: "homeassistant/sensor/inverter_battery_voltage_from_scc"
+      unique_id: "inverter_battery_voltage_from_scc"
       device_class: "voltage"
       unit_of_measurement: "V"
       device:
@@ -191,8 +191,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "Battery Discharge Current"
-      state_topic: "homeassistant/sensor/invertor_battery_discharge_current"
-      unique_id: "invertor_battery_discharge_current"
+      state_topic: "homeassistant/sensor/inverter_battery_discharge_current"
+      unique_id: "inverter_battery_discharge_current"
       device_class: "current"
       unit_of_measurement: "A"
       device:
@@ -203,8 +203,8 @@ mqtt:
         manufacturer: "EASun"
 
     - name: "PV1 Charge Power"
-      state_topic: "homeassistant/sensor/invertor_pv1_charge_power"
-      unique_id: "invertor_pv1_charge_power"
+      state_topic: "homeassistant/sensor/inverter_pv1_charge_power"
+      unique_id: "inverter_pv1_charge_power"
       device_class: "power"
       unit_of_measurement: "W"
       device:
@@ -213,87 +213,39 @@ mqtt:
           - "solar_inverter"
         model: "iSloar-SML-III"
         manufacturer: "EASun"
-    # ######################
-    - name: "Grid Rating Voltage"
-      state_topic: "homeassistant/sensor/inverter_grid_rating_voltage"
-      unique_id: "inverter_grid_rating_voltage"
-      device_class: "voltage"
-      unit_of_measurement: "V"
-      device:
-        name: "QPIRI- Inverter"
-        identifiers:
-          - "solar_inverter_qpiri"
-        model: "iSloar-SML-III"
-        manufacturer: "EASun"
 
-    - name: "Grid Rating Current"
-      state_topic: "homeassistant/sensor/inverter_grid_rating_current"
-      unique_id: "inverter_grid_rating_current"
+    - name: "PV2 Input Current"
+      state_topic: "homeassistant/sensor/inverter_pv2_input_current"
+      unique_id: "inverter_pv2_input_current"
       device_class: "current"
       unit_of_measurement: "A"
       device:
-        name: "QPIRI- Inverter"
+        name: "Invertor - QPIGS"
         identifiers:
-          - "solar_inverter_qpiri"
+          - "solar_inverter"
         model: "iSloar-SML-III"
         manufacturer: "EASun"
 
-    - name: "AC Output Rating Voltage"
-      state_topic: "homeassistant/sensor/inverter_ac_output_rating_voltage"
-      unique_id: "inverter_ac_output_rating_voltage"
+    - name: "PV2 Input Voltage"
+      state_topic: "homeassistant/sensor/inverter_pv2_input_voltage"
+      unique_id: "inverter_pv2_input_voltage"
       device_class: "voltage"
       unit_of_measurement: "V"
       device:
-        name: "QPIRI- Inverter"
+        name: "Invertor - QPIGS"
         identifiers:
-          - "solar_inverter_qpiri"
+          - "solar_inverter"
         model: "iSloar-SML-III"
         manufacturer: "EASun"
 
-    - name: "AC Output Rating Frequency"
-      state_topic: "homeassistant/sensor/ac_output_rating_frequency"
-      unique_id: "inverter_ac_output_rating_frequency"
-      device_class: "frequency"
-      unit_of_measurement: "Hz"
-      device:
-        name: "QPIRI- Inverter"
-        identifiers:
-          - "solar_inverter_qpiri"
-        model: "iSloar-SML-III"
-        manufacturer: "EASun"
-
-    - name: "AC Output Rating Current"
-      state_topic: "homeassistant/sensor/inverter_ac_output_rating_current"
-      unique_id: "inverter_ac_output_rating_current"
-      device_class: "current"
-      unit_of_measurement: "A"
-      device:
-        name: "QPIRI- Inverter"
-        identifiers:
-          - "solar_inverter_qpiri"
-        model: "iSloar-SML-III"
-        manufacturer: "EASun"
-
-    - name: "AC Output Apparent Power"
-      state_topic: "homeassistant/sensor/inverter_ac_output_apparent_power"
-      unique_id: "inverter_ac_output_apparent_power"
-      device_class: "apparent_power"
-      unit_of_measurement: "VA"
-      device:
-        name: "QPIRI- Inverter"
-        identifiers:
-          - "solar_inverter_qpiri"
-        model: "iSloar-SML-III"
-        manufacturer: "EASun"
-
-    - name: "AC Output Active Power"
-      state_topic: "homeassistant/sensor/inverter_ac_output_active_power"
-      unique_id: "inverter_ac_output_active_power"
+    - name: "PV1 Charge Power"
+      state_topic: "homeassistant/sensor/inverter_pv2_charging_power"
+      unique_id: "inverter_pv2_charging_power"
       device_class: "power"
       unit_of_measurement: "W"
       device:
-        name: "QPIRI- Inverter"
+        name: "Invertor - QPIGS"
         identifiers:
-          - "solar_inverter_qpiri"
+          - "solar_inverter"
         model: "iSloar-SML-III"
         manufacturer: "EASun"
