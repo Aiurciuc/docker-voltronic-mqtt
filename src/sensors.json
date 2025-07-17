@@ -5,11 +5,21 @@
     "QPIGS": {
         "grid_voltage": {"index": 0, "type": "float"},
         "grid_frequency": {"index": 1, "type": "float"},
-        "output_load_watt": {"index": 5, "type": "int"},
+        "ac_output_voltage": {"index": 2, "type": "float"},
+        "ac_output_frequency": {"index": 3, "type": "float"},
+        "ac_output_apparent_power": {"index": 4, "type": "int"},
+        "ac_output_active_power": {"index": 5, "type": "int"},
+        "ac_output_load_percent": {"index": 6, "type": "int"},
+        "bus_voltage": {"index": 7, "type": "float"},
+        "battery_voltage": {"index": 8, "type": "float"},
+        "battery_charge_current": {"index": 9, "type": "float"},
         "battery_capacity": {"index": 10, "type": "int"},
-        "heatsink_temperature": {"index": 11, "type": "int"},
-        "pv_input_voltage": {"index": 13, "type": "float"},
-        "pv_input_watt": {"index": 19, "type": "int"}
+        "inverter_temperature": {"index": 11, "type": "int"},
+        "pv1_input_current": {"index": 12, "type": "float"},
+        "pv1_input_voltage": {"index": 13, "type": "float"},
+        "battery_voltage_from_SCC": {"index": 14, "type": "float"},
+        "battery_discharge_current": {"index": 15, "type": "float"},
+        "pv1_charge_power": {"index": 19, "type": "int"}
     },
      "QPIGS2": {
         "pv2_input_voltage": {"index": 1, "type": "float"},
