@@ -238,7 +238,7 @@ mqtt:
         model: "iSloar-SML-III"
         manufacturer: "EASun"
 
-    - name: "PV1 Charge Power"
+    - name: "PV2 Charge Power"
       state_topic: "homeassistant/sensor/inverter_pv2_charging_power"
       unique_id: "inverter_pv2_charging_power"
       device_class: "power"

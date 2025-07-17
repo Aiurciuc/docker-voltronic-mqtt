@@ -7,7 +7,7 @@
         "grid_frequency": {"index": 1, "type": "float"},
         "ac_output_voltage": {"index": 2, "type": "float"},
         "ac_output_frequency": {"index": 3, "type": "float"},
-        "ac_output_apparent_power": {"index": 4, "type": "int"},
+        "ac_output_apparent_power": {"index": 4, "type": "float"},
         "ac_output_active_power": {"index": 5, "type": "int"},
         "ac_output_load_percent": {"index": 6, "type": "int"},
         "bus_voltage": {"index": 7, "type": "float"},
@@ -19,12 +19,12 @@
         "pv1_input_voltage": {"index": 13, "type": "float"},
         "battery_voltage_from_SCC": {"index": 14, "type": "float"},
         "battery_discharge_current": {"index": 15, "type": "float"},
-        "pv1_charge_power": {"index": 19, "type": "int"}
+        "pv1_charge_power": {"index": 19, "type": "float"}
     },
      "QPIGS2": {
         "pv2_input_current": {"index": 0, "type": "float"},
         "pv2_input_voltage": {"index": 1, "type": "float"},
-        "pv2_charging_power": {"index": 2, "type": "int"}
+        "pv2_charging_power": {"index": 2, "type": "float"}
     },
     "QPIWS": {
         "warnings": {"index": 0, "type": "str"}
@@ -39,3 +39,4 @@
         "ac_output_active_power": {"index": 6, "type": "int"}
     }
 }
+
